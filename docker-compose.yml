@@ -1,0 +1,10 @@
+services:
+  fastapi:
+    build: .
+    container_name: fastapi_app_prueba
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    env_file:
+      - .env

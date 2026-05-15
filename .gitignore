@@ -1,0 +1,78 @@
+# Environment variables
+.env
+.env.local
+.env.production
+.env.*
+!env-vars-deploy.yaml
+
+# SQL commands and database scripts
+sql-comands.mm.md
+*.sql
+
+# Notes and personal files
+*.mm.md
+commands.mm.md
+Fuentes_de_codigo.mm.md
+credenciales.txt
+apuntes*
+*apuntes*
+notes*
+*notes*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# Deployment generated files
+env-vars-deploy.yaml
+
+# Logs
+*.log
+logs/
+
+# Langfuse cache
+.langfuse/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
