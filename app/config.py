@@ -1,12 +1,10 @@
-# ============================================
-# APPLICATION CONFIGURATION
-# Environment variables and global settings
-# ============================================
+
 import os
 from dotenv import load_dotenv
 load_dotenv()
 
 class Settings:
+    # Environment variables and global settings
     def __init__(self):
         self.APP_NAME = "Content Suite API"
         self.ENV = os.getenv("ENV", "dev")
