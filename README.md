@@ -274,17 +274,6 @@ finalize_approval → approved
 .\deploy.ps1
 ```
 
-**Despliegue rápido** (solo reconstruye y actualiza servicio):
-
-```powershell
-.\deploy-fast.ps1
-```
-
-### Variables de despliegue
-
-El script `deploy.ps1` genera automáticamente `env-vars-deploy.yaml` a partir del `.env` local y lo aplica al servicio en Cloud Run.
-
----
 
 ## Roles del Sistema
 
