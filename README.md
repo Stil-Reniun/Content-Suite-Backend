@@ -2,7 +2,7 @@
 
 Plataforma de **Brand Content Governance** impulsada por IA Generativa. Permite a las organizaciones definir su ADN de marca, generar contenido gobernado y auditarlo mediante un flujo de aprobación multimodal.
 
-> **Reto Técnico** — Developer Gen AI Analyst | Alicorp
+> **Reto Técnico** — Developer Gen AI Analyst 
 
 Frontend: <https://reto-tecnico-alicorp-ia-gen.vercel.app/>
 
@@ -263,17 +263,6 @@ finalize_approval → approved
 ```
 
 ---
-
-## Despliegue
-
-### Google Cloud Run
-
-**Despliegue completo** (configura APIs, construye imagen, despliega):
-
-```powershell
-.\deploy.ps1
-```
-
 
 ## Roles del Sistema
 
